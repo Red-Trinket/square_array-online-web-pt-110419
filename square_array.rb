@@ -3,7 +3,7 @@ def square_array(array)
   newArray = []
   array.each|number| do
     newArray.push = array[number ** 2]
-    counter += 1 
+    return newArray
   end
     
 end
